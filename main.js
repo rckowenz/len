@@ -2,7 +2,7 @@ function enterPortal() {
   const audio = new Audio('you not the same.mp3');
   const typing = document.getElementById('typing');
   const cursor = document.getElementById('cursor');
-  const texts = ["lain", "kys"];
+  const texts = ["len", "kys"];
   let textIndex = 0;
   let charIndex = 0;
   audio.addEventListener('ended', function() {
